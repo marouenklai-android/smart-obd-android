@@ -1,0 +1,56 @@
+{
+  "verdict": "WARNING",
+  "summary": "The vehicle shows signs of combustion irregularities and exhaust system inefficiency. While core engine parameters appear stable during driving, stored diagnostic faults indicate issues related to oxygen sensor response, catalytic converter efficiency, and intermittent engine misfire that should be investigated.",
+  "rawData": {
+    "speed": "51 km/h",
+    "rpm": "1500 RPM",
+    "coolantTemp": "62 C",
+    "voltage": "14 V",
+    "intakeTemp": "16 C",
+    "throttlePosition": "31.4%",
+    "dtcCodes": ["P0133", "P0300", "P0420"]
+  },
+  "systemHealth": [
+    {
+      "system": "Cooling System",
+      "status": "HEALTHY",
+      "reason": "Thermal behavior indicates the engine is operating within a safe warm-up range without signs of overheating."
+    },
+    {
+      "system": "Electrical System",
+      "status": "HEALTHY",
+      "reason": "Charging system voltage indicates proper alternator and battery operation."
+    },
+    {
+      "system": "Air Intake System",
+      "status": "WARNING",
+      "reason": "Oxygen sensor response fault suggests possible delayed air-fuel mixture feedback affecting intake and exhaust monitoring."
+    },
+    {
+      "system": "Engine Load & Combustion",
+      "status": "WARNING",
+      "reason": "Random misfire detection indicates occasional combustion instability that may affect efficiency and emissions."
+    },
+    {
+      "system": "Fault Codes",
+      "status": "PRESENT",
+      "reason": "Stored codes indicate oxygen sensor slow response, random cylinder misfires, and catalytic converter efficiency below threshold."
+    }
+  ],
+  "correlationAnalysis": "The presence of a slow oxygen sensor response can disrupt accurate air-fuel mixture control, which may contribute to intermittent combustion irregularities. Persistent misfire conditions can also impact catalytic converter performance, potentially explaining the detected catalyst efficiency fault.",
+  "riskAssessment": {
+    "shortTerm": "Vehicle is generally drivable but engine efficiency and emissions control may be reduced.",
+    "mediumTerm": "Continued misfires may accelerate catalytic converter wear and increase fuel consumption.",
+    "longTerm": "If unresolved, catalytic converter damage and persistent combustion issues may lead to higher repair costs and emissions failures."
+  },
+  "recommendations": [
+    "Inspect and test the upstream oxygen sensor for slow response or contamination.",
+    "Check ignition components such as spark plugs and ignition coils for possible misfire sources.",
+    "Verify fuel delivery and air intake system integrity.",
+    "Evaluate catalytic converter condition after resolving misfire or sensor issues.",
+    "Clear codes after repairs and perform a follow-up diagnostic scan."
+  ],
+  "confidence": "High confidence based on consistent diagnostic fault patterns related to emissions and combustion monitoring.",
+  "scanQuality": "HIGH",
+  "timestamp": "2026-03-05 19:02"
+}

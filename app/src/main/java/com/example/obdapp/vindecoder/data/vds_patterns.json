@@ -1,0 +1,17 @@
+[
+  {
+    "pattern": "B3511",
+    "yearRange": "2010-2020",
+    "model": "Kia Picanto",
+    "engine": "1.0L 3-cylinder",
+    "bodyType": "Hatchback"
+  },
+  {
+    "pattern": "C1234",
+    "yearRange": "2015-2021",
+    "model": "Kia Rio",
+    "engine": "1.4L 4-cylinder",
+    "bodyType": "Sedan"
+  }
+]
+

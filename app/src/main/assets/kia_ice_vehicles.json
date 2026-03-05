@@ -1,0 +1,142 @@
+{
+  "brand": "Kia",
+  "type": "ICE",
+  "models": [
+    {
+      "model": "Picanto",
+      "generation": "JA",
+      "years": { "min": 2017, "max": 2024 },
+      "engines": [
+        {
+          "engineCode": "G3LA",
+          "fuel": "Petrol",
+          "displacement_cc": 998,
+          "cylinders": 3,
+          "aspiration": "MPI",
+          "power_hp": 67,
+          "hybridLevel": "NONE",
+          "obd": "OBD-II"
+        },
+        {
+          "engineCode": "G4LA",
+          "fuel": "Petrol",
+          "displacement_cc": 1248,
+          "cylinders": 4,
+          "aspiration": "MPI",
+          "power_hp": 84,
+          "hybridLevel": "NONE",
+          "obd": "OBD-II"
+        }
+      ]
+    },
+    {
+      "model": "Rio",
+      "generation": "YB",
+      "years": { "min": 2017, "max": 2023 },
+      "engines": [
+        {
+          "engineCode": "G4LC",
+          "fuel": "Petrol",
+          "displacement_cc": 1368,
+          "cylinders": 4,
+          "aspiration": "MPI",
+          "power_hp": 100,
+          "hybridLevel": "NONE"
+        },
+        {
+          "engineCode": "D4FB",
+          "fuel": "Diesel",
+          "displacement_cc": 1582,
+          "cylinders": 4,
+          "aspiration": "Turbo",
+          "power_hp": 115,
+          "hybridLevel": "NONE"
+        }
+      ]
+    },
+    {
+      "model": "Ceed",
+      "generation": "CD",
+      "years": { "min": 2018, "max": 2024 },
+      "engines": [
+        {
+          "engineCode": "G4FG",
+          "fuel": "Petrol",
+          "displacement_cc": 1591,
+          "cylinders": 4,
+          "aspiration": "MPI",
+          "power_hp": 135,
+          "hybridLevel": "NONE"
+        },
+        {
+          "engineCode": "G4LD",
+          "fuel": "Petrol",
+          "displacement_cc": 1353,
+          "cylinders": 4,
+          "aspiration": "Turbo",
+          "power_hp": 160,
+          "hybridLevel": "MHEV"
+        },
+        {
+          "engineCode": "D4FE",
+          "fuel": "Diesel",
+          "displacement_cc": 1598,
+          "cylinders": 4,
+          "aspiration": "Turbo",
+          "power_hp": 136,
+          "hybridLevel": "NONE"
+        }
+      ]
+    },
+    {
+      "model": "Sportage",
+      "generation": "QL",
+      "years": { "min": 2016, "max": 2021 },
+      "engines": [
+        {
+          "engineCode": "G4NA",
+          "fuel": "Petrol",
+          "displacement_cc": 1999,
+          "cylinders": 4,
+          "aspiration": "MPI",
+          "power_hp": 155,
+          "hybridLevel": "NONE"
+        },
+        {
+          "engineCode": "D4HA",
+          "fuel": "Diesel",
+          "displacement_cc": 1995,
+          "cylinders": 4,
+          "aspiration": "Turbo",
+          "power_hp": 185,
+          "hybridLevel": "NONE"
+        }
+      ]
+    },
+    {
+      "model": "Stonic",
+      "generation": "YB",
+      "years": { "min": 2017, "max": 2024 },
+      "engines": [
+        {
+          "engineCode": "G3LC",
+          "fuel": "Petrol",
+          "displacement_cc": 998,
+          "cylinders": 3,
+          "aspiration": "Turbo",
+          "power_hp": 120,
+          "hybridLevel": "MHEV"
+        },
+        {
+          "engineCode": "D4FB",
+          "fuel": "Diesel",
+          "displacement_cc": 1582,
+          "cylinders": 4,
+          "aspiration": "Turbo",
+          "power_hp": 115,
+          "hybridLevel": "NONE"
+        }
+      ]
+    }
+  ]
+}

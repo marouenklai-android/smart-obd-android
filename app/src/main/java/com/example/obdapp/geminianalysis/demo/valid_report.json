@@ -1,0 +1,54 @@
+{
+  "verdict": "NORMAL",
+  "summary": "Vehicle operating parameters appear stable during light to moderate driving conditions. No abnormal behavior or fault indications detected across monitored systems.",
+  "rawData": {
+    "speed": "51 km/h",
+    "rpm": "1500 RPM",
+    "coolantTemp": "62 C",
+    "voltage": "14 V",
+    "intakeTemp": "16 C",
+    "throttlePosition": "31.4%",
+    "dtcCodes": []
+  },
+  "systemHealth": [
+    {
+      "system": "Cooling System",
+      "status": "HEALTHY",
+      "reason": "Coolant temperature indicates the engine is warming up normally and remains within a safe operating range."
+    },
+    {
+      "system": "Electrical System",
+      "status": "HEALTHY",
+      "reason": "Charging voltage indicates the alternator and battery system are operating correctly."
+    },
+    {
+      "system": "Air Intake System",
+      "status": "HEALTHY",
+      "reason": "Intake air temperature appears consistent with ambient conditions and indicates proper airflow measurement."
+    },
+    {
+      "system": "Engine Load & Combustion",
+      "status": "HEALTHY",
+      "reason": "Engine speed and throttle position suggest normal engine load and efficient combustion during steady driving."
+    },
+    {
+      "system": "Fault Codes",
+      "status": "CLEAR",
+      "reason": "No diagnostic trouble codes detected in the ECU."
+    }
+  ],
+  "correlationAnalysis": "The relationship between engine speed, throttle input, and vehicle movement suggests a stable cruising condition. Electrical charging values remain consistent, while intake and cooling behavior indicate the engine is operating within expected thermal conditions.",
+  "riskAssessment": {
+    "shortTerm": "No immediate risk detected.",
+    "mediumTerm": "Vehicle systems appear stable with no signs of developing issues.",
+    "longTerm": "Continue routine maintenance and periodic diagnostic scans to ensure sustained system health."
+  },
+  "recommendations": [
+    "Continue normal vehicle operation.",
+    "Allow the engine to reach full operating temperature during regular driving cycles.",
+    "Perform periodic diagnostic scans to monitor long-term vehicle health."
+  ],
+  "confidence": "High confidence based on consistent and coherent sensor readings with no fault codes.",
+  "scanQuality": "HIGH",
+  "timestamp": "2026-03-05 18:45"
+}

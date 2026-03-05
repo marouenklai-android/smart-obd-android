@@ -1,0 +1,128 @@
+[
+  {
+    "pattern": "B3511",
+    "model": "Picanto",
+    "bodyType": "Hatchback",
+    "engine": "1.0 MPI",
+    "yearRange": "2017-2023"
+  },
+  {
+    "pattern": "B3512",
+    "model": "Picanto",
+    "bodyType": "Hatchback",
+    "engine": "1.2 MPI",
+    "yearRange": "2017-2023"
+  },
+  {
+    "pattern": "C4211",
+    "model": "Rio",
+    "bodyType": "Sedan",
+    "engine": "1.4 MPI",
+    "yearRange": "2018-2022"
+  },
+  {
+    "pattern": "C4311",
+    "model": "Rio",
+    "bodyType": "Hatchback",
+    "engine": "1.0 T-GDI",
+    "yearRange": "2019-2024"
+  },
+  {
+    "pattern": "D4412",
+    "model": "Cerato",
+    "bodyType": "Sedan",
+    "engine": "2.0 MPI",
+    "yearRange": "2019-2024"
+  },
+  {
+    "pattern": "E5213",
+    "model": "Sportage",
+    "bodyType": "SUV",
+    "engine": "1.6 T-GDI",
+    "yearRange": "2018-2024"
+  },
+  {
+    "pattern": "F6314",
+    "model": "Sorento",
+    "bodyType": "SUV",
+    "engine": "2.2 CRDi",
+    "yearRange": "2020-2024"
+  },
+  {
+    "pattern": "C1234",
+    "yearRange": "2015-2021",
+    "model": "Kia Rio",
+    "engine": "1.4L 4-cylinder",
+    "bodyType": "Sedan"
+  },
+  {
+    "pattern": "B3511",
+    "model": "Picanto",
+    "bodyType": "Hatchback",
+    "engine": "1.0 MPI",
+    "fuel": "Gasoline",
+    "yearRange": "2017-2023"
+  },
+
+  {
+    "pattern": "C5313",
+    "model": "Stonic",
+    "bodyType": "SUV",
+    "engine": "1.0 T-GDI",
+    "fuel": "Gasoline",
+    "yearRange": "2018-2024"
+  },
+  {
+    "pattern": "C5323",
+    "model": "Stonic",
+    "bodyType": "SUV",
+    "engine": "1.6 CRDi",
+    "fuel": "Diesel",
+    "yearRange": "2018-2023"
+  },
+
+  {
+    "pattern": "D4212",
+    "model": "Ceed",
+    "bodyType": "Hatchback",
+    "engine": "1.5 T-GDI",
+    "fuel": "Gasoline",
+    "yearRange": "2020-2024"
+  },
+  {
+    "pattern": "D4232",
+    "model": "Ceed",
+    "bodyType": "Hatchback",
+    "engine": "1.6 CRDi",
+    "fuel": "Diesel",
+    "yearRange": "2019-2023"
+  },
+
+  {
+    "pattern": "E611H",
+    "model": "Niro",
+    "bodyType": "SUV",
+    "engine": "1.6 GDI Hybrid",
+    "fuel": "Hybrid",
+    "yearRange": "2019-2024"
+  },
+  {
+    "pattern": "E611E",
+    "model": "Niro",
+    "bodyType": "SUV",
+    "engine": "Electric",
+    "fuel": "EV",
+    "yearRange": "2019-2024"
+  },
+
+  {
+    "pattern": "F711E",
+    "model": "EV6",
+    "bodyType": "SUV",
+    "engine": "Electric",
+    "fuel": "EV",
+    "yearRange": "2021-2025"
+  }
+
+]
+

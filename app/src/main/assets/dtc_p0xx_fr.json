@@ -1,0 +1,67 @@
+{
+  "P0100": { "title": "Débitmètre d’air", "severity": "MEDIUM", "description": "Défaut du circuit du débitmètre d’air (MAF)." },
+  "P0101": { "title": "Débitmètre d’air – plage/performance", "severity": "MEDIUM", "description": "Valeur du débit d’air hors plage normale." },
+  "P0102": { "title": "Débitmètre d’air – signal faible", "severity": "MEDIUM", "description": "Signal trop faible du débitmètre d’air." },
+  "P0103": { "title": "Débitmètre d’air – signal élevé", "severity": "MEDIUM", "description": "Signal trop élevé du débitmètre d’air." },
+
+  "P0110": { "title": "Température air admission", "severity": "LOW", "description": "Défaut du capteur de température d’air d’admission." },
+  "P0115": { "title": "Température moteur", "severity": "MEDIUM", "description": "Défaut du capteur de température du liquide de refroidissement." },
+  "P0117": { "title": "Température moteur – signal faible", "severity": "MEDIUM", "description": "Signal trop faible du capteur de température moteur." },
+  "P0118": { "title": "Température moteur – signal élevé", "severity": "MEDIUM", "description": "Signal trop élevé du capteur de température moteur." },
+
+  "P0120": { "title": "Position papillon", "severity": "MEDIUM", "description": "Défaut du capteur de position du papillon." },
+  "P0121": { "title": "Position papillon – plage/performance", "severity": "MEDIUM", "description": "Valeur du papillon incohérente." },
+  "P0122": { "title": "Position papillon – signal faible", "severity": "MEDIUM", "description": "Signal trop faible du capteur de position papillon." },
+  "P0123": { "title": "Position papillon – signal élevé", "severity": "MEDIUM", "description": "Signal trop élevé du capteur de position papillon." },
+  "P0128": { "title": "Température moteur insuffisante", "severity": "LOW", "description": "Le moteur n’atteint pas sa température normale." },
+
+  "P0130": { "title": "Sonde lambda amont", "severity": "MEDIUM", "description": "Défaut du circuit de la sonde lambda (amont)." },
+  "P0133": { "title": "Sonde lambda – réponse lente", "severity": "MEDIUM", "description": "Réaction trop lente de la sonde lambda." },
+  "P0134": { "title": "Sonde lambda – aucune activité", "severity": "MEDIUM", "description": "Aucune activité détectée de la sonde lambda." },
+  "P0135": { "title": "Chauffage sonde lambda", "severity": "LOW", "description": "Défaut du circuit de chauffage de la sonde lambda." },
+
+  "P0140": { "title": "Sonde lambda aval – aucune activité", "severity": "LOW", "description": "Aucune activité détectée après catalyseur." },
+  "P0141": { "title": "Chauffage sonde lambda aval", "severity": "LOW", "description": "Défaut du chauffage de la sonde lambda aval." },
+
+  "P0150": { "title": "Sonde lambda banque 2", "severity": "MEDIUM", "description": "Défaut du circuit de la sonde lambda (banque 2)." },
+
+  "P0160": { "title": "Sonde lambda aval inactive", "severity": "LOW", "description": "Aucune activité de la sonde lambda aval." },
+
+  "P0170": { "title": "Correction carburant", "severity": "MEDIUM", "description": "Correction du mélange air/carburant hors plage." },
+  "P0171": { "title": "Mélange pauvre", "severity": "MEDIUM", "description": "Mélange air/carburant trop pauvre." },
+  "P0172": { "title": "Mélange riche", "severity": "MEDIUM", "description": "Mélange air/carburant trop riche." },
+
+  "P0180": { "title": "Température carburant", "severity": "LOW", "description": "Défaut du capteur de température carburant." },
+
+  "P0201": { "title": "Injecteur cylindre 1", "severity": "HIGH", "description": "Défaut du circuit de l’injecteur cylindre 1." },
+  "P0202": { "title": "Injecteur cylindre 2", "severity": "HIGH", "description": "Défaut du circuit de l’injecteur cylindre 2." },
+  "P0203": { "title": "Injecteur cylindre 3", "severity": "HIGH", "description": "Défaut du circuit de l’injecteur cylindre 3." },
+  "P0204": { "title": "Injecteur cylindre 4", "severity": "HIGH", "description": "Défaut du circuit de l’injecteur cylindre 4." },
+
+  "P0220": { "title": "Position papillon secondaire", "severity": "MEDIUM", "description": "Défaut du capteur de position papillon secondaire." },
+
+  "P0234": { "title": "Surpression turbo", "severity": "HIGH", "description": "Pression du turbocompresseur trop élevée." },
+  "P0299": { "title": "Sous-pression turbo", "severity": "HIGH", "description": "Pression du turbocompresseur trop faible." },
+
+  "P0300": { "title": "Ratés d’allumage multiples", "severity": "HIGH", "description": "Ratés d’allumage détectés sur plusieurs cylindres." },
+  "P0301": { "title": "Raté cylindre 1", "severity": "HIGH", "description": "Raté d’allumage cylindre 1." },
+  "P0302": { "title": "Raté cylindre 2", "severity": "HIGH", "description": "Raté d’allumage cylindre 2." },
+  "P0303": { "title": "Raté cylindre 3", "severity": "HIGH", "description": "Raté d’allumage cylindre 3." },
+  "P0304": { "title": "Raté cylindre 4", "severity": "HIGH", "description": "Raté d’allumage cylindre 4." },
+
+  "P0325": { "title": "Capteur cliquetis", "severity": "MEDIUM", "description": "Défaut du capteur de cliquetis moteur." },
+
+  "P0335": { "title": "Capteur vilebrequin", "severity": "HIGH", "description": "Défaut du capteur de position vilebrequin." },
+
+  "P0340": { "title": "Capteur arbre à cames", "severity": "HIGH", "description": "Défaut du capteur de position arbre à cames." },
+
+  "P0400": { "title": "Système EGR", "severity": "MEDIUM", "description": "Défaut général du système EGR." },
+  "P0401": { "title": "EGR débit insuffisant", "severity": "MEDIUM", "description": "Débit insuffisant de la recirculation des gaz." },
+  "P0402": { "title": "EGR débit excessif", "severity": "MEDIUM", "description": "Débit excessif du système EGR." },
+
+  "P0420": { "title": "Catalyseur inefficace", "severity": "MEDIUM", "description": "Efficacité du catalyseur inférieure au seuil." },
+
+  "P0440": { "title": "Système EVAP", "severity": "LOW", "description": "Défaut général du système EVAP." },
+  "P0442": { "title": "EVAP – petite fuite", "severity": "LOW", "description": "Petite fuite détectée dans le système EVAP." },
+  "P0455": { "title": "EVAP – grosse fuite", "severity": "LOW", "description": "Grosse fuite détectée dans le système EVAP." }
+}
